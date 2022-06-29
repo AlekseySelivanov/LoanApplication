@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.alexs.splash.ui.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash" />
+
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.alexs.authorization.ui.AuthorizationFragment"
+        android:label="AuthorizationFragment"
+        tools:layout="@layout/fragment_authorization">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="loanapp://navigation/authorization" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.alexs.home.ui.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <deepLink app:uri="loanapp://navigation/home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loanFragment"
+        android:name="com.alexs.loan_details.ui.LoanFragment"
+        android:label="LoanFragment"
+        tools:layout="@layout/fragment_loan">
+        <deepLink
+            android:id="@+id/deepLink2"
+            app:uri="loanapp://navigation/loan?loanId={loanId}" />
+        <argument
+            android:name="loanId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

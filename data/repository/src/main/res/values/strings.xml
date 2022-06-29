@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bad_request">This user already exists</string>
+    <string name="not_found">Not found</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="forbidden">This request is forbidden</string>
+    <string name="unauthorized">You are not authorized</string>
+    <string name="unavailable">Service is unavailable now</string>
+    <string name="unknown">Unknown error. Please, try again later</string>
+
+    <string name="blank_amount_message">Amount can\'t be blank</string>
+    <string name="in_numeric_amount_message">Incorrect amount format</string>
+    <string name="zero_amount_message">Amount can\'t be less than 0</string>
+    <string name="high_amount_message">Amount must be less than max value</string>
+    <string name="blank_email_message">Email can\'t be blank</string>
+    <string name="invalid_email_message">Invalid email format</string>
+    <string name="blank_name_message">Name can\'t be blank</string>
+    <string name="short_name_message">Full name must contain at least 2 words</string>
+    <string name="blank_password_message">Password can\'t be blank</string>
+    <string name="short_password_message">Password must contain at least 8 characters</string>
+    <string name="incorrect_password_format_message">Password must contain at least 1 symbol and 1 digit</string>
+    <string name="not_matching_password_message">Passwords not match</string>
+    <string name="blank_phone_message">Phone number can\'t be blank</string>
+    <string name="invalid_phone_message">Invalid phone format</string>
+</resources>

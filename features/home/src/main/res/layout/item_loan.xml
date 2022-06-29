@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    app:strokeWidth="0dp"
+    tools:layout_marginTop="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimaryContainer">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivBank"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/bank_logotype"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_sber"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/CircleShapeImageView" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvBankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/sber"
+            app:layout_constraintBottom_toTopOf="@id/tvUntil"
+            app:layout_constraintStart_toEndOf="@+id/ivBank"
+            app:layout_constraintTop_toTopOf="@+id/ivBank" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvUntil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_remaining"
+            app:layout_constraintBottom_toBottomOf="@+id/ivBank"
+            app:layout_constraintStart_toStartOf="@+id/tvBankName"
+            app:layout_constraintTop_toBottomOf="@+id/tvBankName"
+            tools:text="Until: 12.08.2022" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivStatusIcon"
+            app:layout_constraintEnd_toStartOf="@+id/ivStatusIcon"
+            app:layout_constraintTop_toTopOf="@+id/ivStatusIcon"
+            tools:text="Registered" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivStatusIcon"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBankName"
+            app:layout_constraintEnd_toEndOf="@+id/tvToPay"
+            app:layout_constraintTop_toTopOf="@+id/tvBankName"
+            app:shapeAppearanceOverlay="@style/CircleShapeImageView"
+            tools:background="@color/dodger_blue" />
+
+        <TextView
+            android:id="@+id/tvToPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/loan_value"
+            app:layout_constraintBottom_toBottomOf="@+id/tvUntil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvUntil"
+            tools:text="- ₽15000.50" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,6 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoanMaster" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">#FF4F378B</item>
+    </style>
+</resources>

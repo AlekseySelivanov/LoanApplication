@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_add">Иконка добавить</string>
+    <string name="apply_for_a_loan">Запросить займ</string>
+    <string name="welcome_message">Добро пожаловать!</string>
+    <string name="bank_logotype">Логотип банка</string>
+    <string name="loan_value">- ₽%1$d</string>
+    <string name="loan_remaining">До: %1$s!</string>
+    <string name="sber">Сбер</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bank">Банк:</string>
+    <string name="sber">Сбер</string>
+    <string name="bank_logo">Логотип банка</string>
+    <string name="percent">Процент:</string>
+    <string name="percent_template">%1$s, \%%</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="amount">Сумма:</string>
+    <string name="ruble_hint">Руб…</string>
+    <string name="until">До:</string>
+    <string name="button_next">Кнопка далее</string>
+    <string name="apply">Подтвердить</string>
+    <string name="currently_unavailable">Недоступно в настоящий момент</string>
+    <string name="open_home_page">На главную</string>
+    <string name="show_nearest_banks">Ближайшие банки</string>
+</resources>

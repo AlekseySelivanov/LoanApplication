@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bank">Bank:</string>
+    <string name="sber">Sber</string>
+    <string name="bank_logo">Bank logo</string>
+    <string name="percent">Percent:</string>
+    <string name="percent_template">%1$s, \%%</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="amount">Amount:</string>
+    <string name="ruble_hint">Rub…</string>
+    <string name="until">Until:</string>
+    <string name="button_next">Button next</string>
+    <string name="apply">Apply</string>
+    <string name="currently_unavailable">Currently unavailable</string>
+    <string name="open_home_page">Open home page</string>
+    <string name="show_nearest_banks">Show nearest banks</string>
+</resources>

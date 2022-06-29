@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bad_request">Пользователь уже существует</string>
+    <string name="not_found">Не найдено</string>
+    <string name="no_connection">Нет соединения с сетью</string>
+    <string name="forbidden">Запрещено</string>
+    <string name="unauthorized">Вы не авторизованы</string>
+    <string name="unavailable">Сервис сейчас не доступен</string>
+    <string name="unknown">Неизветсная ошибка. Попробуйте позже</string>
+    <string name="in_numeric_amount_message">Неверный формат</string>
+    <string name="zero_amount_message">Сумма должна быть выше нуля</string>
+    <string name="high_amount_message">Сумма не может превышать максимальный лимит</string>
+    <string name="blank_email_message">Email не может быть пустым</string>
+    <string name="invalid_email_message">Неверный формат Email</string>
+    <string name="blank_name_message">Имя не может быть пустым</string>
+    <string name="short_name_message">Имя должно состоять хотя бы из двух слов</string>
+    <string name="short_password_message">Пароль не может быть короче 8 символов</string>
+    <string name="incorrect_password_format_message">Пароль должен содержать хотя бы 1 букву и 1 цифру</string>
+    <string name="not_matching_password_message">Пароли не совпадают</string>
+    <string name="blank_phone_message">Номер телефона не может быть пустым</string>
+    <string name="invalid_phone_message">Неверный формат номера</string>
+    <string name="blank_password_message">Пароль не может быть пустым</string>
+    <string name="blank_amount_message">Сумма не может быть пустой</string>
+</resources>

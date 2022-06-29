@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "LoanMaster"
+include ':app'
+include ':domain'
+include ':data'
+include ':data:remote'
+include ':data:local'
+include ':data:repository'
+include ':features'
+include ':features:authorization'
+include ':features:splash'
+include ':features:home'
+include ':common'
+include ':features:loan_details'

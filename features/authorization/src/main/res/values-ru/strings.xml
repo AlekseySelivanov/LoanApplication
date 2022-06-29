@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_account">Регистрация</string>
+    <string name="full_name_hint">Полное имя</string>
+    <string name="email_address_hint">Email-адрес</string>
+    <string name="phone_number_hint">Номер телефона</string>
+    <string name="password_hint">Пароль</string>
+    <string name="confirm_password_hint">Подтвердить пароль</string>
+    <string name="terns_and_conditions">Соглашаюсь с <b>Политикой Конфиденциальности</b></string>
+    <string name="already_have_an_account">Уже зарегестрированы?</string>
+    <string name="login">Войти</string>
+    <string name="login_account">Войти в аккаунт</string>
+    <string name="account_question">Еще нет аккаунта?</string>
+    <string name="sign_up">Регистрация</string>
+</resources>
